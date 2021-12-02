@@ -1,0 +1,100 @@
+body
+{
+    width: auto;
+    height: auto;
+    background-image: url(https://i2.wp.com/www.sombrasenazeroth.com/wp-content/uploads/2015/09/malfurion_stormrage_by_siakim-d3dhf5m.jpg?fit=1369%2C583&ssl=1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cuadricula
+{
+    display: grid;   
+    border-style: solid;
+    border-width: 1vw;
+    border-color: black;
+    width: 30vw;
+    height: 30vw;           
+}
+.fila
+{
+    display: flex;   
+    height: 100%;
+    min-height: auto;    
+}
+.cuadroChico
+{     
+background-color: white
+}
+.perro
+{
+ color: brown;
+}
+.cuadroCentral
+{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+@media all and (max-width: 600px) {
+    .cuadricula
+    {
+        width: 100vw;
+        height: 100vw;
+    }
+}
+.barraInferior
+{
+display: flex;
+justify-content: space-evenly;
+margin-top: 1%;
+}
+.barraSuperior
+{
+display: flex;
+flex-direction: column;
+}
+.seleccionadorDeColorhud , .arcoirishud
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.seleccionadorDeColor
+{
+    text-align: center;
+    width: 50px;
+    height: 50px;    
+    border-style: solid;
+    border-style: none;     
+}
+.seleccionadorDeColor::webkit-color-swatch-wrapper
+{
+ padding: 0%;
+}
+.seleccionadorDeColor::webkit-color-swatch{
+    border: none;
+}
+.arcoiris
+{
+    width: 50px;
+    height: 50px;
+}
+.gridhud
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.gridSize
+{
+color: green;
+}
+.seleccionadoreDeColorLetras , .arcoirisLetras, .gridnumero
+{
+color: white;
+}
