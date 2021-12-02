@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js.js" defer></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Etch A Sketch</title>
+</head>
+
+<body>
+    <div class="cuadroCentral">
+        <div class="barraSuperior">
+            <div class="seleccionadorDeColorhud">
+                <input class="seleccionadorDeColor" type="color">            
+            <div class="seleccionadoreDeColorLetras">Selecciona tu color</div>
+            </div>
+            <div class="arcoirishud">
+                <input class="arcoiris" type="checkbox">
+                <div class="arcoirisLetras">Modo Arcoiris</div>
+            </div>
+        </div>
+        <div class="cuadricula">
+        </div>
+    </div>
+    <div class="barraInferior">
+        <div class="gridhud">
+            <input class="gridSize" type="range" value="8" max="64" min="8">
+            <div class="gridnumero"></div>
+        </div>
+        <button class="borrar">Borrar</button>
+    </div>
+</body>
+</html>
